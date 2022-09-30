@@ -40,21 +40,21 @@ function HomePage() {
               <Col>
                 <Card.Img
                   variant="top"
-                  style={{ backgroundColor: "blue" }}
                   src={require(".././images/alertButton.png")}
                 />
                 <div className="d-grid gap-2">
                   <Button variant="secondary" size="sm">
-                  Rescue
+                    Rescue
                   </Button>
                 </div>
               </Col>
               <Col>
                 <Card.Img
                   variant="top"
+                  className="mb-3"
                   src={require(".././images/medShelter.png")}
                 />
-                <div className="d-grid gap-2">
+                <div className="d-grid gap-2 pt-1">
                   <Button variant="secondary" size="sm">
                     Medical / Shelter
                   </Button>
